@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,826.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="825,747.5" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="46">
       <x:String>System.Activities</x:String>
@@ -51,7 +51,7 @@
       <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="フローチャート" sap:VirtualizedContainerService.HintSize="633.6,683.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="フローチャート" sap:VirtualizedContainerService.HintSize="634,682.5" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="ui:Image" Name="image" />
       <Variable x:TypeArguments="sd:Rectangle" Name="qwe" />
@@ -60,7 +60,7 @@
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,103.5</av:PointCollection>
         <x:Double x:Key="Height">646.5</x:Double>
       </scg:Dictionary>
@@ -72,11 +72,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,103.5</av:Point>
-          <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,156.5 290,156.5 290,183.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,51.5</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,155 290,155 290,183.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ClickImage ContinueOnError="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DelayBefore="300" DelayMS="1500" DisplayName="画像をクリック '核对答案'" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:ClickImage ContinueOnError="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DelayBefore="300" DelayMS="1500" DisplayName="画像をクリック '核对答案'" sap:VirtualizedContainerService.HintSize="200,51.5" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
         <ui:ClickImage.CursorPosition>
           <ui:CursorPosition Position="Center">
             <ui:CursorPosition.OffsetX>
@@ -88,7 +88,7 @@
           </ui:CursorPosition>
         </ui:ClickImage.CursorPosition>
         <ui:ClickImage.Image>
-          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAwCAYAAAC13uL+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOzSURBVGhD7ZiJTxNBFMb9k71iQBOjRgNGY7wBoxFR4y23CghqkSCCeEOx5bAcCuWyFXa7u93P9227hRKq3bIig/2Sl+0My8z85h2zuzt0LYHtajuwjVWEU1VFOFVVhPuTbLHwD+D5N6B9ypt1iPXPApqVGstP+QJnJoGKQeDWMNA87s3qvwKnPgHjP9OD+Shf4AyB4wK/ygIJaoor87W4CVTKxozE0oP5KF/hJpfSHWmxP2akwjaXGI5VQQXhpqRdOwZMyNXOQagsHL12R/LwkiyeoOvxKQtHmKgG3B8FqkMpD8qtWVIWjiLgYiJVSa8MiQeXU/2ulIajCBiRSlr2HmidyA5P5eGWBaAxApyRe8ICsS3gCMGi0iLeYlEZWACs1WQiZeGW5IBuEo+dH0h5bC0YpSwc2zVSJYOL64NRysJx4dNyFCRzgFHKwI0LHEG8GEO3cqvD8a3AfX3xYq9mpIp+lofueHowH+ULHD3QGwVuhlM55tVYTVlV/ZYvcFtVRThVVYRTVUU4VfX/wvEzXW/EQmVXImMVLxM437nSXm0P3huI63Kie1BMs1H30cyMcVHGbhk0caPPQKXMdUHanLOQ8X8Lxy9WM3EbQ9PJjD0LWdj5UEPbkJnVTxudS8KSDfGi6ZiN8jYdD2Xhr8YsB+R6r4GgjNcj7eNPddR+MAoa33NYjswmUdqoIzTjkSKHCHfosY4DzTqOterYXavh3jsDYwISGLZwVPpagqYDy3u9xEVBcCUNGm73p3Yz1/fIfMUFl4nnqnsMNH02US6euvXGwIl2AW7SMmG5T+akR/kcm68KgttXrzm5sV8m7wiZWRMybJxP6nkac6h71EKzgLk28D2Jsy8Sjgf5t49TFq72JFCzGXAlEpYfJi10jVhOKN19a2BuycayYTshxL587KJ4hPnE3wy/0kYNh5/oONmhOxvH6KC3WGA2Dc7NOc7zRa7cZVYzAmry6rKwbOdt9NygeIo5dfCR7mxY9KeNMzJmtQCdCyTQ/uUfwLniIhuknI8vrPTlK/5vlWzMuwnLCffL3QY6BbDhk4njknd769gnR4J4+UXY9JTjvsBtROFo0gnFa68N7JJKeUXgeMa5hYTHA/OOG8Dfm+65QsV1BsQbPKxPP09gj3ipU8o/z7M+eXgYlrnmJdQZ7gxbtv+q5yYXbWdHI/MbhzMsODnGavhDnlQCwyaOiBfXFh7XeFzE/HpCySWW+42eb644jhtqvKx3XKw2LyoIThUV4VTVNoYDfgG/XW5VHpFIMQAAAABJRU5ErkJggg==" />
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="2" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHkAAABkCAYAAACisp8MAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAdhwAAHYcBj+XxZQAAA8lJREFUeF7tm7trFUEUh/MX2tqJrYVYWImInb11GhstrLSwEotUEV8ogoWd2IgiCYLmpY75cu+RcTK57t47d2bY8/vgsK9JZvZ8O49dko0vn3eCYtqxEcTkkWQHSLIDJNkBkuwASXaAJDtAkh0gyQ6QZAdIsgMk2QGS7ABJdkC3kt98DeHydggXtuoGdVL3lOhWcgvBFtQ9JbqVbAmvTat614kkJ0hyRSS5HJKcIMkVkeRyTELyzVez+HY4P7ECklyRMcm+/mJWlu2qoiW5ImOSvXsQwrXnZURLckXGJruUaEmuyDLJLiFakiuybLJj0WzHipbkiqyS7FVES3JFVk02YpcRLckVKZHsWDTv0UOQ5IpIcjk0XCdIckVWSfaygkGSK7JssvUKdZpJSdbHkDyTkVxCMEhyRcYku5RgkOSKjEk2YksIBkmuyJhk648GFjOphVcJJLkiklwOSU6Q5IpIcjkkOUGSK6J/eCtHt5JfN/rX1StPZ3VPiW4li3JIsgMk2QGS7ABJdoAkO0CSHSDJDpBkB0iyAyTZAZLsAEl2gCQ7QJIdIMkOkGQHSLIDikm++mAvnNv8vpZ49uHnvJb1Qj25+uOAsffaGkmOMMm3Hu+Hze2Df8LuDx6+PTp1nWsX7/44dZ5oTdXhmhsmGSSsR0xy7qGytud49+nXybXbW+2F5pDkiKHDdQpyuYbsHpHkiKHDNbA/JHqgmeTdvd/zs/0wZrhm/6w5mOCae8kEicgltBVjJccjEosxwkh7fkuaSEauPenEjUf74eNO+/nMJC8Kg/1Ysj24hnvJlgyOz9+ZyWbL8VlQZl1h9ZrkoXNyKjU9jsu3pPnCix5MT+Y8cen+XnaVatfXEbQLaAv7uVGFB8DKAT8nyRlyko0n74/+9uo48bUwKUPCenx8H0w/knzMIsnAijvu1TVF575imah0+Kanp/fBcfwxRJLPkGzQqynT4jWLNtoq2dqbW23H90F7Odbq+pihkltC++i5sEhyjI0+TDf/K9sCSY6wYZh2grU3jRh6L+e4J3st7O0btiRH2IIq7cnpnAxMJfbNmjcCjuM1hZ3rAUmOsPYRthBjPx6C6e3ItTcB9lOZ914enlyjTO51rDaSHEG7aB+9MN7GkhHKeXr3ovmXa/y+HnqzJM+x+ZjhFjEmnDChvQy/Y5HkOYikbfFrEPvxN/Zlo/WQLclzaBtzaK638pmVeZYytH1M2CKuJVUl9wxykThFJNkBkuwASXaAJDtAkh0gyQ6QZAdIsgMk2QGS7ABJdoAkO0CSJ08IfwAX2YnwYx7QUAAAAABJRU5ErkJggg==" />
         </ui:ClickImage.Image>
         <ui:ClickImage.Target>
           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0f86f09c-5db8-436f-a124-c72987dfffc9" Selector="&lt;wnd app='wechatapp.exe' cls='DragTitleControlName' idx='*' /&gt;">
@@ -106,11 +106,11 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">190,183.5</av:Point>
-              <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">290,236.3 290,263.2</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,51.5</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">290,235 289.6,235 289.6,263.2</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="スクリーンショットを作成 'DIV'" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[image]">
+          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="スクリーンショットを作成 'DIV'" sap:VirtualizedContainerService.HintSize="200,51.5" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[image]">
             <ui:TakeScreenshot.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="578915ff-ff90-47e0-9ded-c348582f3d1e" InformativeScreenshot="287a4fb18860f36e34906ac16a6e418f" Selector="&lt;wnd app='wechatapp.exe' cls='DragTitleControlName' idx='*' /&gt;">
                 <ui:Target.TimeoutMS>
@@ -132,11 +132,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">167.6,263.2</av:Point>
-                  <av:Size x:Key="ShapeSize">244.8,133.6</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">290,396.8 280,396.8 280,424.38</av:PointCollection>
+                  <av:Size x:Key="ShapeSize">244,134.5</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">289.6,397.7 280,397.7 280,424.38</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <InvokeMethod DisplayName="メソッドを呼び出し" sap:VirtualizedContainerService.HintSize="244.8,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="SetImage" TargetType="swf:Clipboard">
+              <InvokeMethod DisplayName="メソッドを呼び出し" sap:VirtualizedContainerService.HintSize="244,134.5" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="SetImage" TargetType="swf:Clipboard">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -149,32 +149,43 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">180,424.38</av:Point>
-                      <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">280,477.18 280,507.18 150,507.18 150,129.9 200,129.9</av:PointCollection>
+                      <av:Size x:Key="ShapeSize">200,51.5</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">280,475.88 280,505.88 150,505.88 150,129.25 200,129.25</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <p:WordApplicationScope AutoSave="False" DisplayName="Word アプリケーションスコープ" FilePath="D:\桌面\截图用.docx" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1">
-                    <p:WordApplicationScope.Body>
-                      <ActivityAction x:TypeArguments="ui:WordDocument">
-                        <ActivityAction.Argument>
-                          <DelegateInArgument x:TypeArguments="ui:WordDocument" Name="WordDocumentScope" />
-                        </ActivityAction.Argument>
-                        <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="475.2,293.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                  <ui:CommentOut sap:VirtualizedContainerService.HintSize="588,571" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="552,493" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <p:WordApplicationScope AutoSave="False" DisplayName="Word アプリケーションスコープ" FilePath="C:\Users\xiaom\Desktop\SAA.docx" sap:VirtualizedContainerService.HintSize="510,401" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1">
+                          <p:WordApplicationScope.Body>
+                            <ActivityAction x:TypeArguments="ui:WordDocument">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="ui:WordDocument" Name="WordDocumentScope" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="476,292" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <p:WordPasteFromClipboard Found="{x:Null}" Text="{x:Null}" DisplayName="文書にグラフ/画像を貼り付け" sap:VirtualizedContainerService.HintSize="434,200" sap2010:WorkflowViewState.IdRef="WordPasteFromClipboard_1" PasteOption="Picture" PasteRelativeTo="Document" Position="Start" />
+                              </Sequence>
+                            </ActivityAction>
+                          </p:WordApplicationScope.Body>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <p:WordPasteFromClipboard Found="{x:Null}" Text="{x:Null}" DisplayName="文書にグラフ/画像を貼り付け" sap:VirtualizedContainerService.HintSize="433.6,200.8" sap2010:WorkflowViewState.IdRef="WordPasteFromClipboard_1" PasteOption="Picture" PasteRelativeTo="Document" Position="End" />
-                        </Sequence>
-                      </ActivityAction>
-                    </p:WordApplicationScope.Body>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </p:WordApplicationScope>
+                        </p:WordApplicationScope>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                  </ui:CommentOut>
                   <FlowStep.Next>
                     <x:Reference>__ReferenceID0</x:Reference>
                   </FlowStep.Next>
